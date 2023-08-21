@@ -5,8 +5,6 @@ class PolytopeCli < Formula
   sha256 "f539b5b75656e54b904ea38e355709d3e5ea28b6a355e07271637b52ae62c455"
   version "0.1.0"
 
-  bottle :unneeded
-
   def install
     libexec.install "polytope"
     bin.install_symlink libexec/"polytope" => "polytope-cli"
