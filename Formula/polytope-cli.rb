@@ -1,9 +1,9 @@
 class PolytopeCli < Formula
   desc "CLI for Polytope, the programmable development platform"
   homepage "https://polytope.com"
-  url "https://polytope-cli-releases.s3.eu-north-1.amazonaws.com/polytope-cli-0.1.10-macos-x86-64.tar.gz"
-  sha256 "824e15e230365e11dcd4af8e1936aefd9b6cb39de015a662c1c61c3184b6f431"
-  version "0.1.10"
+  url "https://polytope-cli-releases.s3.eu-north-1.amazonaws.com/polytope-cli-0.1.11-macos-x86-64.tar.gz"
+  sha256 "2c5fa62b2da3a5a3f9c2c78574e4d9acbbbcbdecfb9a51005f2e1a22417aa37f"
+  version "0.1.11"
 
   def install
     libexec.install "polytope"
